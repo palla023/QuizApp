@@ -1,3 +1,7 @@
+The Project Output Looks Like the Image below: 
+![image](https://user-images.githubusercontent.com/65664262/190618656-8ea8b14d-f8a0-4089-a163-b1f839ebb866.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
