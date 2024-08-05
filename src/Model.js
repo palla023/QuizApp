@@ -14,7 +14,7 @@ const Sub = ({marks}) => {
                     <h4 class="modal-title">Your Score :</h4>
                 </div>
                 <div class="modal-body">
-                    <h1 style={{"textAlign" : "center"}}>{marks.reduce((a,b) => a+b,0)}/10</h1>
+                    <h1 style={{"textAlign" : "center"}}>{marks && marks.reduce((a,b) => a+(b || 0),0)}/10</h1>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
